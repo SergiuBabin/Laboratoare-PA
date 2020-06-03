@@ -1,0 +1,2 @@
+# Laboratoare-PA
+Proiectarea Algoritmilor
