@@ -2,7 +2,7 @@
 Proiectarea Algoritmilor
 
 Laborator-01: 
-                      
+
             task1 - Count occurrences
             task2 - SQRT
             task3 - ZParcurgere
