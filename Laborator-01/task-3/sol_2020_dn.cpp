@@ -1,6 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Gigel are o tabla patratica de dimensiuni 2n∗2n. Ar vrea sa scrie pe patratelele
+ tablei numere naturale cuprinse intre 1 si 2n∗2n conform unei parcurgeri mai
+ deosebite pe care o numeste Z-parcurgere.
 
+ O Z-parcurgere viziteaza recursiv cele patru cadrane ale tablei in ordinea:
+ stanga-sus, dreapta-sus, stanga-jos, dreapta-jos.
+
+ La un moment dat Gigel ar vrea sa stie ce numar de ordine trebuie sa scrie
+ conform Z-parcurgerii pe anumite patratele date prin coordonatele lor (x,y).
+ Gigel incepe umplerea tablei intotdeauna din coltul din stanga-sus
+ */
 class Task {
 public:
     void solve() {

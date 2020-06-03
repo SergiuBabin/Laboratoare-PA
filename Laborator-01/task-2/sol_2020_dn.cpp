@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Se da un numar real n. Scrieti un algoritm de complexitate O(log n) care sa
+ calculeze sqrt(n) cu o precizie de 0.001.
+ */
 class Task {
 public:
     void solve() {

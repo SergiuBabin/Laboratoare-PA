@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ /*
+ Se da un sir sortat v cu n elemente. Gasiti numarul de elemente egale cu x
+ din sir.
+ */
 class Task {
 public:
     void solve() {

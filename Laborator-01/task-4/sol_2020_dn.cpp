@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Se dau doua numere naturale base si exponent. Scrieti un algoritm de
+ complexitate O(log(exponent)) care sa calculeze base^exponent % MOD.
+ */
 class Task {
 public:
     void solve() {
