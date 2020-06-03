@@ -2,7 +2,6 @@
 using namespace std;
 
 // ATENTIE! In aceasta sursa sunt prezentate 4 metode corecte de a folosi std::sort.
-// Alegeti una!
 
 struct Object {
     int weight;
