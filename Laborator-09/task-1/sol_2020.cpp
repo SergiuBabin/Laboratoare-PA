@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Se da un graf orientat cu n noduri si m arce. Graful are pe arce costuri pozitive.
 
+ Folositi Dijkstra pentru a gasi costul minim (lungimea minima) a unui drum de
+ la o sursa data (source) la toate celelalte n - 1 noduri din graf.
+
+ Costul / lungimea unui drum este suma costurilor/lungimilor arcelor care compun
+ drumul.
+ */
 const int kNmax = 50005;
 const int kInf = 0x3f3f3f3f;
 

@@ -1,6 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Fie un sir de numere naturale strict pozitive. Cate subsiruri (submultimi nevide)
+ au suma numerelor para?
+ 
+ subsir (subsequence in engleza) pentru un vector v inseamna un alt vector u=[v[i1],v[i2],...,v[ik]]] unde i1<i2<...<ik.
+ 
+ Task-uri:
 
+ Se cere o solutie folosind DP.
+ Inspectand recurenta gasita la punctul precedent, incercati sa o inlocuiti cu
+ o formula matematica.
+ */
 const int kMod = 1e9 + 7;
 
 class Task {

@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Fie N si K doua numere naturale strict pozitive. Se cere afisarea tuturor
+ aranjamentelor de N elemente luate cate K din multimea {1, 2, …, N}.
+ */
 class Task {
  public:
     void solve() {

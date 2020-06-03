@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Problema damelor (sau problema reginelor) trateaza plasarea a 8 regine de sah
+ pe o tablă de șah de dimensiuni 8 x 8 astfel incat sa nu existe doua regine
+ care se ameninta reciproc. Astfel, se cauta o solutie astfel incat nicio
+ pereche de doua regine sa nu fie pe acelasi rand, pe aceeasi coloana, sau pe
+ aceeasi diagonala. Problema cu opt regine este doar un caz particular pentru
+ problema generala, care presupune plasarea a N regine pe o tablă de sah N x N
+ în aceleasi conditii. Pentru aceasta problema, există solutii pentru toate
+ numerele naturale N cu excepția lui N = 2 si N = 3.
+ */
 class Task {
  public:
     void solve() {

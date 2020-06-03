@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Fie N un numar natural strict pozitiv. Se cere afisarea tuturor submultimilor
+ multimii {1, 2, …, N}.
+ */
 class Task {
  public:
     void solve() {

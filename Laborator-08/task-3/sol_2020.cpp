@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Se da un graf neorientat conex cu n noduri si m muchii. Se cere sa se gaseaca
+ toate muchiile critice.
+ 
+ Like Algoritmul lui Tarjan
+ */
 const int kNmax = 100005;
 
 class Task {

@@ -1,7 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Fie un set cu n obiecte (care pot fi taiate - varianta continua a problemei).
+ Fiecare obiect i are asociata o pereche (wi,pi) cu semnificatia:
 
-// ATENTIE! In aceasta sursa sunt prezentate 4 metode corecte de a folosi std::sort.
+ wi = weighti = greutatea obiectului cu numarul i
+ pi = pricei = pretul obiectului cu numarul i
+ wi>=0 si pi>0
+ Gigel are la dispozitie un rucsac de volum infinit, dar care suporta o greutate
+ maxima (notata cu W - weight knapsack).
+
+ El vrea sa gaseasca o submultime de obiecte (nu neaparat intregi) pe care sa le
+ bage in rucsac, astfel incat suma profiturilor sa fie maxima.
+
+ Daca Gigel baga in rucsac obiectul i, caracterizat de (wi,pi), atunci profitul
+ adus de obiect este pi (presupunem ca il vinde cu cat valoareaza).
+
+ In aceasta varianta a problemei, Gigel poate taia oricare dintre obiecte,
+ obtinand o proportie din acesta. Daca Gigel alege alege doar x din greutatea wi
+ a obiectului i, atunci el castiga doar xwi∗pi.
+ */
+// ATENTIE! In aceasta sursa sunt prezentate 4 metode corecte de a folosi sort.
 
 struct Object {
     int weight;

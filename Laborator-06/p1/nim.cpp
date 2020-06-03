@@ -1,8 +1,7 @@
-// skel PA 2017
-// Darius - attempt 2018
-
 #include "nim.h"
-
+/*
+ Se doreste implementarea algoritmulului minimax sau negamax pentru Nim.
+ */
 // miscarea care presupune sa scot amount din gramada cu indicele heap
 Move::Move(int amount = 0, int heap = -1) : amount(amount), heap(heap) {}
 

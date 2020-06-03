@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Pe parcursul unui semestru, un student are de rezolvat n teme (nimic nou pana
+ aici…). Se cunosc enunțurile tuturor celor n teme de la începutul semestrului.
 
+ Timpul de rezolvare pentru oricare dintre teme este de o săptămână și nu se
+ poate lucra la mai multe teme în același timp. Pentru fiecare tema se cunoaște
+ un termen limita d[i] (exprimat în săptămâni - deadline pentru tema i) și un
+ punctaj p[i].
+
+ Nicio fracțiune din punctaj nu se mai poate obține după expirarea termenului
+ limită.
+
+ Task-uri:
+ Să se definească o planificare de realizare a temelor, în așa fel încât
+ punctajul obținut să fie maxim.
+ */
 struct Homework {
     int deadline;
     int score;

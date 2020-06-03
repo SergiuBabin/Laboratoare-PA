@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Consideram 2 localitati A si B aflate la distanta D. Intre cele 2 localitati
+ avem un numar de n benzinarii, date prin distanta fata de localitatea A. Masina
+ cu care se efectueaza deplasarea intre cele 2 localitati poate parcurge maxim m
+ kilometri avand rezervorul plin la inceput. Se doreste parcurgerea drumului cu
+ un numar minim de opriri la benzinarii pentru realimentare (dupa fiecare oprire
+ la o benzinarie, masina pleaca cu rezervorul plin).
 
+ Distantele catre benzinarii se reprezinta printr-o lista de forma 0<d1<d2<...<dn,
+ unde di (1<=i<=n) reprezinta distanta de la A la benzinaria i. Pentru simplitate,
+ se considera ca localitatea A se afla la 0, iar dn=D (localitatea B se afla in
+ acelasi loc cu ultima benzinarie).
+
+ Se garanteaza ca exista o planificare valida a opririlor astfel incat sa se
+ poata ajunge la localitatea B.
+ */
 class Task {
  public:
     void solve() {

@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Vi se da o lista de caractere si o lista de frecvente (pentru caracterul de pe
+ pozitia i, frecventa de pe pozitia i). Vi se cere sa generati toate sirurile
+ care se pot forma cu aceste caractere si aceste frecvente stiind ca nu pot fi
+ mai mult de K aparitii consecutive ale aceluiasi caracter.
+ */
 class Task {
  public:
     void solve() {

@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Se da un graf orientat aciclic cu n noduri si m arce. Se cere sa se gaseaca o
+ sortare topologica valida.
+ */
 const int kNmax = 100005;
 
 class Task {

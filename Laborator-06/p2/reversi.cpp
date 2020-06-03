@@ -1,7 +1,7 @@
-// skel PA 2017
-
 #include "reversi.h"
-
+/*
+ Se doreste implementarea algoritmulului minimax sau negamax pentru Reversi.
+ */
 Move::Move(int player, int x = -1, int y = -1) : player(player), x(x), y(y) {}
 
 Reversi::Reversi() {

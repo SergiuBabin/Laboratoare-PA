@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Se da un graf orientat cu n noduri. Graful are costuri pozitive pe arce.
 
+ Se da matricea ponderilor , se cere matricea drumurilor minime.
+ */
 const int kNmax = 105;
 
 class Task {

@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+ Se da un graf orientat cu n noduri si m arce. Sa se gaseasca componentele
+ tare-conexe.
+ 
+ Algoritmul lui Kosaraju
+ */
 const int kNmax = 100005;
 
 class Task {

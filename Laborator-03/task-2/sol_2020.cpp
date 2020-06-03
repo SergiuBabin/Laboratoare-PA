@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Fie doi vectori cu numere intregi: v cu n elemente si w cu m elemente. Sa se
+ gaseasca cel mai lung subsir comun (notat CMLSC) care apare in cei doi vectori.
+ Se cere o solutie de complexitate optima. Daca exista mai multe solutii, se
+ poate gasi oricare.
 
+ Task-uri:
+
+ 2.1 Determinare lungime CMLSC. (Hint: DP)
+ 2.2 Reconstituire CMLSC (afisati si care sunt termenii CMLSC).
+ */
 struct Result {
     int len;
     vector<int> subsequence;

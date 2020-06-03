@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Se da o expresie booleana corecta cu n termeni. Fiecare din termeni poate fi
+ unul din stringurile true, false, and, or, xor.
 
+ Numarati modurile in care se pot aseza paranteze astfel incat rezultatul sa fie
+ true. Se respecta regulile de la logica (tabelele de adevar pentru operatiile
+ and, or, xor).
+
+ Deoarece rezultatul poate fi prea mare, se cere restul impartirii lui la
+ 1000000007 (109+7).
+ */
 const int kMod = 1e9 + 7;
 
 class Task {

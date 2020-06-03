@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Gigel are o colectie impresionanta de monede. El ne spune ca are n tipuri de
+ monede, avand un numar nelimitat de monede din fiecare tip. Cunoscand aceasta
+ informatie (data sub forma unui vector v cu n elemente), el se intreaba care
+ este numarul minim de monede cu care poate plati o suma S.
 
+ Task-uri:
+
+ 1.1 Determinati numarul minim de monede (din cele pe care le are) cu care Gigel
+ poate forma suma S.
+ */
 class Task {
  public:
     void solve() {

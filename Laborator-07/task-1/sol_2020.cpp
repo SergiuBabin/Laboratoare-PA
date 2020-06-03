@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+ Se da un graf neorientat cu n noduri si m muchii. Se mai da un nod special
+ source, pe care il vom numi sursa.
 
+ Se cere sa se gaseasca numarul minim de muchii ce trebuie parcurse de la source
+ la toate celelalte noduri.
+ */
 const int kNmax = 100005;
 const int kInf  = (1 << 30);
 
