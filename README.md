@@ -53,4 +53,7 @@ Laborator-09: (Drumuri minime)
             task2 - Bellman-Ford
             task3 - RoyFloyd
 
-
+Laborator-10:  Arbori Minimi de Acoperire (AMA)
+            
+            task1 - Kruskal
+            task2 - Prim
